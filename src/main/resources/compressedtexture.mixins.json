@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "dev.lasm.compressedtexture.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MixinNativeImage"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "plugin": "dev.lasm.compressedtexture.CompressedTextureConfigPlugin"
+}

@@ -1,0 +1,13 @@
+{
+  "itemGroup.compressedtexture": "Example Mod Tab",
+  "block.compressedtexture.example_block": "Example Block",
+  "item.compressedtexture.example_item": "Example Item",
+
+  "compressedtexture.configuration.title": "Compressed Texture Configs",
+  "compressedtexture.configuration.section.compressedtexture.common.toml": "Compressed Texture Configs",
+  "compressedtexture.configuration.section.compressedtexture.common.toml.title": "Compressed Texture Configs",
+  "compressedtexture.configuration.items": "Item List",
+  "compressedtexture.configuration.logDirtBlock": "Log Dirt Block",
+  "compressedtexture.configuration.magicNumberIntroduction": "Magic Number Text",
+  "compressedtexture.configuration.magicNumber": "Magic Number"
+}

@@ -1,0 +1,17 @@
+[package]
+name = "avif-jni"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+jni-simple = { version = "0.4.0", features = ["dynlink", "loadjvm"] }
+load_image = "3.3.2"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
